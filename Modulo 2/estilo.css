@@ -1,0 +1,25 @@
+.exemplo-1{
+    color: rgb(255, 0, 0)
+}
+.exemplo-2{
+    color: rgb(0, 255, 0);
+}
+.exemplo-3{
+    color: #0000ff;
+}
+.exemplo-4{
+    color: #ff47d4;
+}
+.exemplo{
+    width: 150px; /*largura*/
+    height: 150px; /*altura*/
+}
+.elemento-pai{
+    width: 300px; /*largura*/
+    height: 300px; /*altura*/
+    background-color: green ; /*cor de fundo*/
+}
+
+.elemento-filho{
+    height: 50%; 
+}
