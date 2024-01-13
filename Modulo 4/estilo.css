@@ -1,0 +1,35 @@
+p{
+    color: blueviolet;
+}
+.colorido{
+    color: red;
+}
+#paragrafo{
+    color: greenyellow;
+}
+/* "*" seletor global, faz todos ficarem iguais*/ 
+main h3{
+    color: orange;
+}
+
+.exemplo:hover{
+    background-color: lightblue;
+}
+/* .exemplo:focus (da o foco quando da tab)
+    .exemplo:active (muda a cor quando esta ativo) */
+
+li:first-child{
+    color: brown;
+}
+
+li:last-child{
+    color: green;
+}
+
+.exemplo2::after{
+    content: " - DEPOIS";
+}
+
+.exemplo2::before{
+    content: "ANTES - ";
+}
