@@ -23,3 +23,7 @@
 .elemento-filho{
     height: 50%; 
 }
+
+.texto{
+    font-family: Verdana, Arial, Tahoma, sans-serif; /*pode ser cursiva ou usar google fontes*/ 
+}
