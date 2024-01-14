@@ -1,0 +1,33 @@
+p{
+    color: green;
+}
+p{
+    color: blue;
+}
+.texto{
+    color: blueviolet;
+}
+.elemento-pai{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+}
+.elemento-filho{
+    width: inherit;
+}
+
+.txt{
+    color: brown;
+}
+.lista.item.link{
+    background-color: beige;
+}
+
+ul #item a{
+    background-color: sandybrown;
+}
+
+ul li a{
+    background-color: silver;
+}
