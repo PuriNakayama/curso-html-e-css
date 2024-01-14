@@ -1,0 +1,32 @@
+.texto{
+    background-color: aqua;
+    display: inline;
+}
+
+.link{
+    background-color: palegreen;
+    padding: 15px;
+    display: inline-block;
+}
+
+.caixa{
+    background-color: blanchedalmond;
+    width:150px;
+    height: 150px;
+    position: static; /*relative,fixed */
+    top: 400px;
+
+}
+
+.caixa-absoluta{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}
+
+.texto1{
+    margin: 0;
+}
