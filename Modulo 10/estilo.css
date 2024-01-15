@@ -1,0 +1,53 @@
+.caixa-1{
+    width: 100px;
+    height: 100px;
+    background-color: #1fffb0;
+    transform: scaleY(2);
+}
+
+.caixa-2{
+    width: 100px;
+    height: 100px;
+    background-color: #fa60fc;
+    transform: scaleX(.3);
+}
+
+.caixa{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    /* transform: rotate(35deg); */
+    animation: girando 2s infinite;
+}
+
+@keyframes girando{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.cx-1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    transform: translateX(30px); /*horizontal e vertical*/
+}
+.cx-2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    transform: translateY(50px); /*horizontal e vertical*/
+}
+
+.cxc{
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    transform: skew(10deg);
+}
+.botao{
+    opacity: .5;
+}
