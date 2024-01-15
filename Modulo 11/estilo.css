@@ -1,13 +1,43 @@
-.caixa-1{
+.caixa{
+    background-color: pink;
     width: 100px;
     height: 100px;
-    background-color: #1fffb0;
-    transform: scaleX(2);
+    padding: 10px;
+    border: 5px solid green;
+    box-sizing: border-box;
+    margin: 10px;
 }
 
-.caixa-2{
-    width: 100px;
-    height: 100px;
-    background-color: #fa60fc;
-    transform: scaleY(.3);
+.container{
+    border: 1px solid green;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    /*align-items: flex-start; flex-end; center; */
+   /* flex-direction: row; row-reverse; column; column-reverse
+   flex-wrap: wrap; valor padrao eh nowrap 
+   flex-flow: now-reverse wrap 
+   justify-content: flex-end; center; space-between; space-around,
+   space-evenly 
+   align-content: stretch; flex-start; flex-end; center; space-between; 
+   space-around;*/
+}
+.cx{
+    background-color: lightseagreen;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+.conteiner{
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 100px, 100px 50px;
+    grid-gap: 10px;
+}
+.cx1{
+    background: orange;
+    padding: 20px;
+}
+.colunas{
+    column-count: 2;
 }
