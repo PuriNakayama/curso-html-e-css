@@ -1,0 +1,34 @@
+.botao{
+    padding: 8px;
+    background-color: #e768f2;
+    transition: background-color .5s;
+}
+
+.botao:hover{
+    background-color: #68f0f2;
+}
+
+@keyframes animacao{
+    0%{ /* inicio da animacao */
+        background-color: #e768f2;
+        top: 0;
+        left: 0;
+    }
+    50%{ /* meio da animacao */
+        top: 0;
+        left: 100px;
+    }
+    100%{ /* fim da animacao */
+        background-color: #68f0f2;
+        top: 100px;
+        left: 100px;
+    }
+}
+
+.caixa{
+    width: 300px;
+    height: 300px;
+    animation: animacao 2s infinite alternate;
+    position: relative;
+    will-change: left,top;
+}
